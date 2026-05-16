@@ -1,0 +1,43 @@
+###> Laravel ###
+/vendor/
+.env
+.env.backup
+.env.production
+/public/hot
+/public/storage
+/storage/*.key
+
+# Laravel generated/runtime files — never commit these
+/storage/framework/cache/
+/storage/framework/sessions/
+/storage/framework/views/
+/storage/logs/
+/storage/api-docs/
+/bootstrap/cache/*
+!bootstrap/cache/.gitkeep
+###< Laravel ###
+
+###> PHPUnit ###
+/.phpunit.result.cache
+###< PHPUnit ###
+
+###> Composer ###
+/vendor/
+composer.lock
+###< Composer ###
+
+###> IDE ###
+/.vs/
+/.idea/
+/.vscode/
+*.swp
+###< IDE ###
+
+###> OS ###
+.DS_Store
+Thumbs.db
+###< OS ###
+
+###> Docker — generated assets ###
+/public/vendor/
+###< Docker ###
